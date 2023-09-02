@@ -1,0 +1,10 @@
+.timestamp {
+    color: white;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px; /* Add some space between the timestamp and play button */
+    background: transparent;
+}

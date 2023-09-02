@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ziot2x</title>
+    <style>
+        .audio-player {
+            background: transparent;
+            text-align: center;
+        }
+
+        .play-button {
+            background: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+            transition: transform 0.6s ease-in-out;
+        }
+
+        .play-button:hover {
+            transform: scale(1.20);
+        }
+
+        .play-button img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.6s ease-in-out;
+        }
+
+        .play-button:hover img {
+            transform: scale(1.20); /* 60% bigger on hover */
+        }
+
+
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZioT</title>
+    <link href="./_app/immutable/assets/0.d4e5369f.css" rel="stylesheet">
+    <link href="./_app/immutable/assets/5.eda20436.css" rel="stylesheet">
+    <link href="./_app/immutable/assets/effects.12207b50.css" rel="stylesheet">
+    <meta property="og:title" content="ZioT">
+    <meta property="og:description" content="ZioT">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1147023445293547552/1147023479334518784/standard.gif">
+    <meta property="og:url" content="discord.gg/ziots-vfx">
+    <meta property="theme-color" content="#2b2d31">
+    <!-- Add other preload links here -->
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 0px); /* Adjusted to move content up by 30px */
+            background-image: url(https://cdn.discordapp.com/attachments/1147023445293547552/1147024251036106833/standard_1.gif);
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(2px);
+        }
+
+        .content {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background: rgba(27, 27, 27, 0.253);
+            border-radius: 20px;
+            box-shadow: 0 0 400px rgba(12, 12, 12, 0.2);
+            backdrop-filter: blur(5px);
+            text-align: center;
+            margin-top: -85px; /* Adjusted to move up by 60px */
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 90px rgba(0, 0, 0, 0.5);
+            margin-top: -70px; /* Adjusted to move up by 60px */
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* You can adjust this as needed */
+        }
+
+        .social-button {
+            margin: 0 10px;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            fill: white;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .social-button:hover .social-icon {
+            transform: scale(1.1);
+        }
+
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+             }
+
+             img    {
+                    pointer-events: none;
+                    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147023479334518784/standard.gif" class="avatar" alt="avatar">
+            <h1 class="text-2xl font-semibold">ZioT</h1>
+
+            <style>
+                .text-2xl {
+                    color: white;
+                }
+            </style>
+
+            <p class="font-medium" style="color: white;">software developer / c++ programmer</p>
+
+            <style>
+                a:link {
+                    color: rgb(255, 255, 255);
+                    background-color: transparent;
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    color: rgb(255, 255, 255);
+                    background-color: transparent;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: rgb(255, 255, 255);
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
+
+                a:active {
+                    color: rgb(255, 255, 255);
+                    background-color: transparent;
+                    text-decoration: underline;
+                }
+            </style>
+            <style>
+                .social-button {
+                    display: inline-block;
+                    margin: 10px;
+                    transition: transform 0.4s ease;
+                }
+
+                .social-icon img {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .social-button:hover {
+                    transform: scale(1.4);
+                }
+            </style>
+
+            <div class="social-buttons">
+                <div class="social-button">
+                    <a href="https://youtube.com/@ziot-vfx" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147231342401179708/yt.png" alt="Youtube">
+                    </a>
+                </div>
+                <div class="social-button">
+                    <a href="https://twitter.com/@stewey98" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147230777017380884/social_media_icons_neon_set_256x256_0002_twitter.png" alt="Twitter">
+                    </a>
+                </div>
+                <div class="social-button">
+                    <a href="https://discord.gg/ziots-vfx" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147230769161437285/discord-logo-transparent-better.png" alt="Discord">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Add the timestamp text element -->
+            <div id="timestamp" style="color: white;">0:00 / 0:00</div>
+
+            <!-- Add the audio element with autoplay -->
+            <div class="audio-player">
+                <button class="play-button" onclick="toggleAudio()">
+                    <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147292195322335342/play_button.png" alt="Play">
+                </button>
+                <audio id="audio" style="display: none;">
+                    <source src="https://cdn.discordapp.com/attachments/1147023445293547552/1147026268345348206/spotifydown.com_-_khaos_emerald_2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <script>
+                var audio = document.getElementById("audio");
+                var isPlaying = false;
+                var timestamp = document.getElementById("timestamp");
+
+                audio.addEventListener("timeupdate", function() {
+                    var currentTime = audio.currentTime;
+                    var duration = audio.duration;
+                    timestamp.textContent = formatTime(currentTime) + " / " + formatTime(duration);
+                });
+
+                function toggleAudio() {
+                    if (isPlaying) {
+                        audio.pause();
+                    } else {
+                        audio.play();
+                    }
+                    isPlaying = !isPlaying;
+                }
+
+                function formatTime(time) {
+                    var minutes = Math.floor(time / 60);
+                    var seconds = Math.floor(time % 60);
+                    return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+                }
+            </script>
+
+            <script>
+                document.addEventListener('contextmenu', function (e) {
+                     e.preventDefault();
+                 });
+            </script>
+        </div>
+    </div>
+    <div id="svelte-announcer" aria-live="assertive" aria-atomic="true" style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;">/ziot</div>
+</body>
+</html>
