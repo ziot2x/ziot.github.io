@@ -1,267 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ziot2x</title>
-    <style>
-        .audio-player {
-            background: transparent;
-            text-align: center;
-        }
-
-        .play-button {
-            background: transparent;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            font-size: 24px;
-            color: white;
-            transition: transform 0.6s ease-in-out;
-        }
-
-        .play-button:hover {
-            transform: scale(1.20);
-        }
-
-        .play-button img {
-            width: 40px;
-            height: 40px;
-            transition: transform 0.6s ease-in-out;
-        }
-
-        .play-button:hover img {
-            transform: scale(1.20); /* 60% bigger on hover */
-        }
-
-
-    </style>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ZioT</title>
-    <link href="./_app/immutable/assets/0.d4e5369f.css" rel="stylesheet">
-    <link href="./_app/immutable/assets/5.eda20436.css" rel="stylesheet">
-    <link href="./_app/immutable/assets/effects.12207b50.css" rel="stylesheet">
-    <meta property="og:title" content="ZioT">
-    <meta property="og:description" content="ZioT">
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1147023445293547552/1147023479334518784/standard.gif">
-    <meta property="og:url" content="discord.gg/ziots-vfx">
-    <meta property="theme-color" content="#2b2d31">
-    <!-- Add other preload links here -->
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: calc(100vh - 0px); /* Adjusted to move content up by 30px */
-            background-image: url(https://cdn.discordapp.com/attachments/1147023445293547552/1147024251036106833/standard_1.gif);
-            background-size: cover;
-            background-position: center;
-            backdrop-filter: blur(2px);
-        }
-
-        .content {
-            max-width: 400px;
-            width: 100%;
-            padding: 20px;
-            background: rgba(27, 27, 27, 0.253);
-            border-radius: 20px;
-            box-shadow: 0 0 400px rgba(12, 12, 12, 0.2);
-            backdrop-filter: blur(5px);
-            text-align: center;
-            margin-top: -85px; /* Adjusted to move up by 60px */
-        }
-
-        .avatar {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 0 90px rgba(0, 0, 0, 0.5);
-            margin-top: -70px; /* Adjusted to move up by 60px */
-        }
-
-        .social-buttons {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px; /* You can adjust this as needed */
-        }
-
-        .social-button {
-            margin: 0 10px;
-        }
-
-        .social-icon {
-            width: 30px;
-            height: 30px;
-            fill: white;
-            transition: transform 0.4s ease-in-out;
-        }
-
-        .social-button:hover .social-icon {
-            transform: scale(1.1);
-        }
-
-        body {
-            user-select: none;
-            -webkit-user-select: none;
-             }
-
-             img    {
-                    pointer-events: none;
-                    }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="content">
-            <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147023479334518784/standard.gif" class="avatar" alt="avatar">
-            <h1 class="text-2xl font-semibold">ZioT</h1>
-
-            <style>
-                .text-2xl {
-                    color: white;
-                }
-            </style>
-
-            <p class="font-medium" style="color: white;">software developer / c++ programmer</p>
-
-            <style>
-                a:link {
-                    color: rgb(255, 255, 255);
-                    background-color: transparent;
-                    text-decoration: none;
-                }
-
-                a:visited {
-                    color: rgb(255, 255, 255);
-                    background-color: transparent;
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    color: rgb(255, 255, 255);
-                    background-color: transparent;
-                    text-decoration: underline;
-                }
-
-                a:active {
-                    color: rgb(255, 255, 255);
-                    background-color: transparent;
-                    text-decoration: underline;
-                }
-            </style>
-            <style>
-                .social-button {
-                    display: inline-block;
-                    margin: 10px;
-                    transition: transform 0.4s ease;
-                }
-
-                .social-icon img {
-                    width: 30px;
-                    height: 30px;
-                }
-
-                .social-button:hover {
-                    transform: scale(1.4);
-                }
-            </style>
-
-            <div class="social-buttons">
-                <div class="social-button">
-                    <a href="https://youtube.com/@ziot-vfx" target="_blank" rel="noopener noreferrer" class="social-icon">
-                        <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147231342401179708/yt.png" alt="Youtube">
-                    </a>
-                </div>
-                <div class="social-button">
-                    <a href="https://twitter.com/@stewey98" target="_blank" rel="noopener noreferrer" class="social-icon">
-                        <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147230777017380884/social_media_icons_neon_set_256x256_0002_twitter.png" alt="Twitter">
-                    </a>
-                </div>
-                <div class="social-button">
-                    <a href="https://discord.gg/ziots-vfx" target="_blank" rel="noopener noreferrer" class="social-icon">
-                        <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147230769161437285/discord-logo-transparent-better.png" alt="Discord">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Add the timestamp text element -->
-            <div id="timestamp" style="color: white;">0:00 / 0:00</div>
-
-            <!-- Add the audio element with autoplay -->
-            <div class="audio-player">
-                <button class="play-button" onclick="toggleAudio()">
-                    <img src="https://cdn.discordapp.com/attachments/1147023445293547552/1147292195322335342/play_button.png" alt="Play">
-                </button>
-                <audio id="audio" style="display: none;">
-                    <source src="https://cdn.discordapp.com/attachments/1147023445293547552/1147026268345348206/spotifydown.com_-_khaos_emerald_2.mp3" type="audio/mp3">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-
-            <script>
-                var audio = document.getElementById("audio");
-                var isPlaying = false;
-                var timestamp = document.getElementById("timestamp");
-
-                audio.addEventListener("timeupdate", function() {
-                    var currentTime = audio.currentTime;
-                    var duration = audio.duration;
-                    timestamp.textContent = formatTime(currentTime) + " / " + formatTime(duration);
-                });
-
-                function toggleAudio() {
-                    if (isPlaying) {
-                        audio.pause();
-                    } else {
-                        audio.play();
-                    }
-                    isPlaying = !isPlaying;
-                }
-
-                function formatTime(time) {
-                    var minutes = Math.floor(time / 60);
-                    var seconds = Math.floor(time % 60);
-                    return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
-                }
-            </script>
-
-            <script>
-                document.addEventListener('contextmenu', function (e) {
-                     e.preventDefault();
-                 });
-            </script>
-        </div>
-    </div>
-    <div id="svelte-announcer" aria-live="assertive" aria-atomic="true" style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;">/ziot</div>
-</body>
-</html>
+<script>var s="=\"EPDUZQF!iunm?=iunm!mboh>#fo#?=ifbe?!!!!=mjol!sfm>#jdpo#!isfg>#gbwjdpo/jdp#!uzqf>#jnbhf0y.jdpo#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#68y68#!isfg>#0bqqmf.jdpo.68y68/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#71y71#!isfg>#0bqqmf.jdpo.71y71/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#83y83#!isfg>#0bqqmf.jdpo.83y83/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#87y87#!isfg>#0bqqmf.jdpo.87y87/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#225y225#!isfg>#0bqqmf.jdpo.225y225/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#231y231#!isfg>#0bqqmf.jdpo.231y231/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#255y255#!isfg>#0bqqmf.jdpo.255y255/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#263y263#!isfg>#0bqqmf.jdpo.263y263/qoh#?=mjol!sfm>#bqqmf.upvdi.jdpo#!tj{ft>#291y291#!isfg>#0bqqmf.jdpo.291y291/qoh#?=mjol!sfm>#jdpo#!uzqf>#jnbhf0qoh#!tj{ft>#2:3y2:3#!!isfg>#0boespje.jdpo.2:3y2:3/qoh#?=mjol!sfm>#jdpo#!uzqf>#jnbhf0qoh#!tj{ft>#43y43#!isfg>#0gbwjdpo.43y43/qoh#?=mjol!sfm>#jdpo#!uzqf>#jnbhf0qoh#!tj{ft>#:7y:7#!isfg>#0gbwjdpo.:7y:7/qoh#?=mjol!sfm>#jdpo#!uzqf>#jnbhf0qoh#!tj{ft>#27y27#!isfg>#0gbwjdpo.27y27/qoh#?=mjol!sfm>#nbojgftu#!isfg>#0nbojgftu/ktpo#?=nfub!obnf>#ntbqqmjdbujpo.UjmfDpmps#!dpoufou>#$gggggg#?=nfub!obnf>#ntbqqmjdbujpo.UjmfJnbhf#!dpoufou>#0nt.jdpo.255y255/qoh#?=nfub!obnf>#uifnf.dpmps#!dpoufou>#$gggggg#?!!!!=nfub!dibstfu>#vug.9#?!!!!=nfub!obnf>#wjfxqpsu#!dpoufou>#xjeui>efwjdf.xjeui-!jojujbm.tdbmf>2#?!!!!=ujumf?{jpu3y=0ujumf?!!!!=tuzmf?!!!!!!!!/bvejp.qmbzfs!|!!!!!!!!!!!!cbdlhspvoe;!usbotqbsfou<!!!!!!!!!!!!ufyu.bmjho;!dfoufs<!!!!!!!!~!!!!!!!!/qmbz.cvuupo!|!!!!!!!!!!!!cbdlhspvoe;!usbotqbsfou<!!!!!!!!!!!!cpsefs;!opof<!!!!!!!!!!!!pvumjof;!opof<!!!!!!!!!!!!dvstps;!qpjoufs<!!!!!!!!!!!!gpou.tj{f;!35qy<!!!!!!!!!!!!dpmps;!xijuf<!!!!!!!!!!!!usbotjujpo;!usbotgpsn!1/7t!fbtf.jo.pvu<!!!!!!!!~!!!!!!!!/qmbz.cvuupo;ipwfs!|!!!!!!!!!!!!usbotgpsn;!tdbmf)2/31*<!!!!!!!!~!!!!!!!!/qmbz.cvuupo!jnh!|!!!!!!!!!!!!xjeui;!51qy<!!!!!!!!!!!!ifjhiu;!51qy<!!!!!!!!!!!!usbotjujpo;!usbotgpsn!1/7t!fbtf.jo.pvu<!!!!!!!!~!!!!!!!!/qmbz.cvuupo;ipwfs!jnh!|!!!!!!!!!!!!usbotgpsn;!tdbmf)2/31*<!0+!71&!cjhhfs!po!ipwfs!+0!!!!!!!!~!!!!=0tuzmf?!!!!=nfub!dibstfu>#vug.9#?!!!!=nfub!obnf>#wjfxqpsu#!dpoufou>#xjeui>efwjdf.xjeui-!jojujbm.tdbmf>2#?!!!!=ujumf?[jpU=0ujumf?!!!!=mjol!isfg>#/0`bqq0jnnvubcmf0bttfut01/e5f647:g/dtt#!sfm>#tuzmftiffu#?!!!!=mjol!isfg>#/0`bqq0jnnvubcmf0bttfut06/feb31547/dtt#!sfm>#tuzmftiffu#?!!!!=mjol!isfg>#/0`bqq0jnnvubcmf0bttfut0fggfdut/23318c61/dtt#!sfm>#tuzmftiffu#?!!!!=nfub!qspqfsuz>#ph;ujumf#!dpoufou>#[jpU#?!!!!=nfub!qspqfsuz>#ph;eftdsjqujpo#!dpoufou>#[jpU#?!!!!=nfub!qspqfsuz>#ph;jnbhf#!dpoufou>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:46586630225813458:4456298950tuboebse/hjg#?!!!!=nfub!qspqfsuz>#ph;vsm#!dpoufou>#ejtdpse/hh0{jput.wgy#?!!!!=nfub!qspqfsuz>#uifnf.dpmps#!dpoufou>#$3c3e42#?!!!!=\"..!Bee!puifs!qsfmpbe!mjolt!ifsf!..?!!!!=tuzmf?!!!!!!!!cpez!|!!!!!!!!!!!!nbshjo;!1<!!!!!!!!!!!!qbeejoh;!1<!!!!!!!!!!!!gpou.gbnjmz;!Bsjbm-!tbot.tfsjg<!!!!!!!!~!!!!!!!!/dpoubjofs!|!!!!!!!!!!!!ejtqmbz;!gmfy<!!!!!!!!!!!!kvtujgz.dpoufou;!dfoufs<!!!!!!!!!!!!bmjho.jufnt;!dfoufs<!!!!!!!!!!!!ifjhiu;!dbmd)211wi!.!1qy*<!0+!Bekvtufe!up!npwf!dpoufou!vq!cz!41qy!+0!!!!!!!!!!!!cbdlhspvoe.jnbhf;!vsm)iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:4658663022581353621472179440tuboebse`2/hjg*<!!!!!!!!!!!!cbdlhspvoe.tj{f;!dpwfs<!!!!!!!!!!!!cbdlhspvoe.qptjujpo;!dfoufs<!!!!!!!!!!!!cbdlespq.gjmufs;!cmvs)3qy*<!!!!!!!!~!!!!!!!!/dpoufou!|!!!!!!!!!!!!nby.xjeui;!511qy<!!!!!!!!!!!!xjeui;!211&<!!!!!!!!!!!!qbeejoh;!31qy<!!!!!!!!!!!!cbdlhspvoe;!shcb)38-!38-!38-!1/364*<!!!!!!!!!!!!cpsefs.sbejvt;!31qy<!!!!!!!!!!!!cpy.tibepx;!1!1!511qy!shcb)23-!23-!23-!1/3*<!!!!!!!!!!!!cbdlespq.gjmufs;!cmvs)6qy*<!!!!!!!!!!!!ufyu.bmjho;!dfoufs<!!!!!!!!!!!!nbshjo.upq;!.96qy<!0+!Bekvtufe!up!npwf!vq!cz!71qy!+0!!!!!!!!~!!!!!!!!/bwbubs!|!!!!!!!!!!!!xjeui;!211qy<!!!!!!!!!!!!ifjhiu;!211qy<!!!!!!!!!!!!cpsefs.sbejvt;!61&<!!!!!!!!!!!!pckfdu.gju;!dpwfs<!!!!!!!!!!!!cpy.tibepx;!1!1!:1qy!shcb)1-!1-!1-!1/6*<!!!!!!!!!!!!nbshjo.upq;!.81qy<!0+!Bekvtufe!up!npwf!vq!cz!71qy!+0!!!!!!!!~!!!!!!!!/tpdjbm.cvuupot!|!!!!!!!!!!!!ejtqmbz;!gmfy<!!!!!!!!!!!!kvtujgz.dpoufou;!dfoufs<!!!!!!!!!!!!nbshjo.upq;!31qy<!0+!Zpv!dbo!bekvtu!uijt!bt!offefe!+0!!!!!!!!~!!!!!!!!/tpdjbm.cvuupo!|!!!!!!!!!!!!nbshjo;!1!21qy<!!!!!!!!~!!!!!!!!/tpdjbm.jdpo!|!!!!!!!!!!!!xjeui;!41qy<!!!!!!!!!!!!ifjhiu;!41qy<!!!!!!!!!!!!gjmm;!xijuf<!!!!!!!!!!!!usbotjujpo;!usbotgpsn!1/5t!fbtf.jo.pvu<!!!!!!!!~!!!!!!!!/tpdjbm.cvuupo;ipwfs!/tpdjbm.jdpo!|!!!!!!!!!!!!usbotgpsn;!tdbmf)2/2*<!!!!!!!!~!!!!!!!!cpez!|!!!!!!!!!!!!vtfs.tfmfdu;!opof<!!!!!!!!!!!!.xfclju.vtfs.tfmfdu;!opof<!!!!!!!!!!!!!~!!!!!!!!!!!!!jnh!!!!|!!!!!!!!!!!!!!!!!!!!qpjoufs.fwfout;!opof<!!!!!!!!!!!!!!!!!!!!~!!!!=0tuzmf?=0ifbe?=cpez?!!!!=ejw!dmbtt>#dpoubjofs#?!!!!!!!!=ejw!dmbtt>#dpoufou#?!!!!!!!!!!!!=jnh!tsd>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:46586630225813458:4456298950tuboebse/hjg#!dmbtt>#bwbubs#!bmu>#bwbubs#?!!!!!!!!!!!!=i2!dmbtt>#ufyu.3ym!gpou.tfnjcpme#?[jpU=0i2?!!!!!!!!!!!!=tuzmf?!!!!!!!!!!!!!!!!/ufyu.3ym!|!!!!!!!!!!!!!!!!!!!!dpmps;!xijuf<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!=0tuzmf?!!!!!!!!!!!!=q!dmbtt>#gpou.nfejvn#!tuzmf>#dpmps;!xijuf<#?tpguxbsf!efwfmpqfs!0!d,,!qsphsbnnfs=0q?!!!!!!!!!!!!=tuzmf?!!!!!!!!!!!!!!!!b;mjol!|!!!!!!!!!!!!!!!!!!!!dpmps;!shc)366-!366-!366*<!!!!!!!!!!!!!!!!!!!!cbdlhspvoe.dpmps;!usbotqbsfou<!!!!!!!!!!!!!!!!!!!!ufyu.efdpsbujpo;!opof<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!b;wjtjufe!|!!!!!!!!!!!!!!!!!!!!dpmps;!shc)366-!366-!366*<!!!!!!!!!!!!!!!!!!!!cbdlhspvoe.dpmps;!usbotqbsfou<!!!!!!!!!!!!!!!!!!!!ufyu.efdpsbujpo;!opof<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!b;ipwfs!|!!!!!!!!!!!!!!!!!!!!dpmps;!shc)366-!366-!366*<!!!!!!!!!!!!!!!!!!!!cbdlhspvoe.dpmps;!usbotqbsfou<!!!!!!!!!!!!!!!!!!!!ufyu.efdpsbujpo;!voefsmjof<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!b;bdujwf!|!!!!!!!!!!!!!!!!!!!!dpmps;!shc)366-!366-!366*<!!!!!!!!!!!!!!!!!!!!cbdlhspvoe.dpmps;!usbotqbsfou<!!!!!!!!!!!!!!!!!!!!ufyu.efdpsbujpo;!voefsmjof<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!=0tuzmf?!!!!!!!!!!!!=tuzmf?!!!!!!!!!!!!!!!!/tpdjbm.cvuupo!|!!!!!!!!!!!!!!!!!!!!ejtqmbz;!jomjof.cmpdl<!!!!!!!!!!!!!!!!!!!!nbshjo;!21qy<!!!!!!!!!!!!!!!!!!!!usbotjujpo;!usbotgpsn!1/5t!fbtf<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!/tpdjbm.jdpo!jnh!|!!!!!!!!!!!!!!!!!!!!xjeui;!41qy<!!!!!!!!!!!!!!!!!!!!ifjhiu;!41qy<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!/tpdjbm.cvuupo;ipwfs!|!!!!!!!!!!!!!!!!!!!!usbotgpsn;!tdbmf)2/5*<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!=0tuzmf?!!!!!!!!!!!!=ejw!dmbtt>#tpdjbm.cvuupot#?!!!!!!!!!!!!!!!!=ejw!dmbtt>#tpdjbm.cvuupo#?!!!!!!!!!!!!!!!!!!!!=b!isfg>#iuuqt;00zpvuvcf/dpn0A{jpu.wgy#!ubshfu>#`cmbol#!sfm>#oppqfofs!opsfgfssfs#!dmbtt>#tpdjbm.jdpo#?!!!!!!!!!!!!!!!!!!!!!!!!=jnh!tsd>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:46586630225834245351228:8190zu/qoh#!bmu>#Zpvuvcf#?!!!!!!!!!!!!!!!!!!!!=0b?!!!!!!!!!!!!!!!!=0ejw?!!!!!!!!!!!!!!!!=ejw!dmbtt>#tpdjbm.cvuupo#?!!!!!!!!!!!!!!!!!!!!=b!isfg>#iuuqt;00uxjuufs/dpn0Atufxfz:9#!ubshfu>#`cmbol#!sfm>#oppqfofs!opsfgfssfs#!dmbtt>#tpdjbm.jdpo#?!!!!!!!!!!!!!!!!!!!!!!!!=jnh!tsd>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:4658663022583418881284919950tpdjbm`nfejb`jdpot`ofpo`tfu`367y367`1113`uxjuufs/qoh#!bmu>#Uxjuufs#?!!!!!!!!!!!!!!!!!!!!=0b?!!!!!!!!!!!!!!!!=0ejw?!!!!!!!!!!!!!!!!=ejw!dmbtt>#tpdjbm.cvuupo#?!!!!!!!!!!!!!!!!!!!!=b!isfg>#iuuqt;00ejtdpse/hh0{jput.wgy#!ubshfu>#`cmbol#!sfm>#oppqfofs!opsfgfssfs#!dmbtt>#tpdjbm.jdpo#?!!!!!!!!!!!!!!!!!!!!!!!!=jnh!tsd>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:46586630225834187:2725483960ejtdpse.mphp.usbotqbsfou.cfuufs/qoh#!bmu>#Ejtdpse#?!!!!!!!!!!!!!!!!!!!!=0b?!!!!!!!!!!!!!!!!=0ejw?!!!!!!!!!!!!=0ejw?!!!!!!!!!!!!=\"..!Bee!uif!ujnftubnq!ufyu!fmfnfou!..?!!!!!!!!!!!!=ejw!je>#ujnftubnq#!tuzmf>#dpmps;!xijuf<#?1;11!0!1;11=0ejw?!!!!!!!!!!!!=\"..!Bee!uif!bvejp!fmfnfou!xjui!bvupqmbz!..?!!!!!!!!!!!!=ejw!dmbtt>#bvejp.qmbzfs#?!!!!!!!!!!!!!!!!=cvuupo!dmbtt>#qmbz.cvuupo#!podmjdl>#uphhmfBvejp)*#?!!!!!!!!!!!!!!!!!!!!=jnh!tsd>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:4658663022583:32:64334464530qmbz`cvuupo/qoh#!bmu>#Qmbz#?!!!!!!!!!!!!!!!!=0cvuupo?!!!!!!!!!!!!!!!!=bvejp!je>#bvejp#!tuzmf>#ejtqmbz;!opof<#?!!!!!!!!!!!!!!!!!!!!=tpvsdf!tsd>#iuuqt;00deo/ejtdpsebqq/dpn0buubdinfout022581345563:4658663022581373794564593170tqpujgzepxo/dpn`.`libpt`fnfsbme`3/nq4#!uzqf>#bvejp0nq4#?!!!!!!!!!!!!!!!!!!!!Zpvs!cspxtfs!epft!opu!tvqqpsu!uif!bvejp!fmfnfou/!!!!!!!!!!!!!!!!=0bvejp?!!!!!!!!!!!!=0ejw?!!!!!!!!!!!!=tdsjqu?!!!!!!!!!!!!!!!!wbs!bvejp!>!epdvnfou/hfuFmfnfouCzJe)#bvejp#*<!!!!!!!!!!!!!!!!wbs!jtQmbzjoh!>!gbmtf<!!!!!!!!!!!!!!!!wbs!ujnftubnq!>!epdvnfou/hfuFmfnfouCzJe)#ujnftubnq#*<!!!!!!!!!!!!!!!!bvejp/beeFwfouMjtufofs)#ujnfvqebuf#-!gvodujpo)*!|!!!!!!!!!!!!!!!!!!!!wbs!dvssfouUjnf!>!bvejp/dvssfouUjnf<!!!!!!!!!!!!!!!!!!!!wbs!evsbujpo!>!bvejp/evsbujpo<!!!!!!!!!!!!!!!!!!!!ujnftubnq/ufyuDpoufou!>!gpsnbuUjnf)dvssfouUjnf*!,!#!0!#!,!gpsnbuUjnf)evsbujpo*<!!!!!!!!!!!!!!!!~*<!!!!!!!!!!!!!!!!gvodujpo!uphhmfBvejp)*!|!!!!!!!!!!!!!!!!!!!!jg!)jtQmbzjoh*!|!!!!!!!!!!!!!!!!!!!!!!!!bvejp/qbvtf)*<!!!!!!!!!!!!!!!!!!!!~!fmtf!|!!!!!!!!!!!!!!!!!!!!!!!!bvejp/qmbz)*<!!!!!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!!!!!jtQmbzjoh!>!\"jtQmbzjoh<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!!!!!gvodujpo!gpsnbuUjnf)ujnf*!|!!!!!!!!!!!!!!!!!!!!wbs!njovuft!>!Nbui/gmpps)ujnf!0!71*<!!!!!!!!!!!!!!!!!!!!wbs!tfdpoet!>!Nbui/gmpps)ujnf!&!71*<!!!!!!!!!!!!!!!!!!!!sfuvso!njovuft!,!#;#!,!)tfdpoet!=!21!@!#1#!;!##*!,!tfdpoet<!!!!!!!!!!!!!!!!~!!!!!!!!!!!!=0tdsjqu?!!!!!!!!!!!!=tdsjqu?!!!!!!!!!!!!!!!!epdvnfou/beeFwfouMjtufofs)(dpoufyunfov(-!gvodujpo!)f*!|!!!!!!!!!!!!!!!!!!!!!f/qsfwfouEfgbvmu)*<!!!!!!!!!!!!!!!!!~*<!!!!!!!!!!!!=0tdsjqu?!!!!!!!!=0ejw?!!!!=0ejw?!!!!=ejw!je>#twfmuf.boopvodfs#!bsjb.mjwf>#bttfsujwf#!bsjb.bupnjd>#usvf#!tuzmf>#qptjujpo;!bctpmvuf<!mfgu;!1qy<!upq;!1qy<!dmjq;!sfdu)1qy-!1qy-!1qy-!1qy*<!dmjq.qbui;!jotfu)61&*<!pwfsgmpx;!ijeefo<!xijuf.tqbdf;!opxsbq<!xjeui;!2qy<!ifjhiu;!2qy<#?0{jpu=0ejw?=0cpez?=0iunm?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript>You must enable JavaScript to see this text.</noscript>
